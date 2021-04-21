@@ -7,7 +7,7 @@ import { Hero, HeroById } from './interfaces/hero.interface';
 export class HeroControll {
   private readonly items: Hero[] = [
     { id: 1, name: 'LaiBinHong' },
-    { id: 2, name: 'WuMei' },
+    { id: 2, name: 'Janz' },
   ];
 
   @GrpcMethod('HeroService')
